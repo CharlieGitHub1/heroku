@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_components_headers",
+  "info": {
+    "name": "Header",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo_name": {
+      "type": "string"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "nav_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.nav-item"
+    }
+  }
+}

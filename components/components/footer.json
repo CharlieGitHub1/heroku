@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_components_footers",
+  "info": {
+    "name": "footer",
+    "icon": "socks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_one": {
+      "type": "string"
+    },
+    "nav_items_one": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.nav-item"
+    },
+    "title_two": {
+      "type": "string"
+    },
+    "nav_items_two": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.nav-item"
+    },
+    "title_three": {
+      "type": "string"
+    },
+    "nav_items_three": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.nav-item"
+    },
+    "copyright": {
+      "type": "string"
+    }
+  }
+}

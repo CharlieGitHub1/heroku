@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_heroes",
+  "info": {
+    "name": "Hero",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sub_title": {
+      "type": "string"
+    }
+  }
+}
